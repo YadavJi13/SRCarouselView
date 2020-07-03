@@ -42,7 +42,7 @@
     }
     SRCarouselView *carouselView = [SRCarouselView sr_carouselViewWithImageArrary:imageArray describeArray:nil placeholderImage:nil delegate:self];
     carouselView.frame = CGRectMake(0, 44, self.view.frame.size.width, 200);
-    carouselView.autoPagingInterval = 10.0;
+    carouselView.autoPagingInterval = 15.0;
     [self.view addSubview:carouselView];
 }
 
